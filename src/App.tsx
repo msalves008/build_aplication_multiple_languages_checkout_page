@@ -4,7 +4,8 @@ import { GlobalStyles } from "./styles/global";
 export function App() {
   return (
     <div className="App">
-      <CheckoutPage/>
+        <CheckoutPage />
+
       <GlobalStyles />
     </div>
   );

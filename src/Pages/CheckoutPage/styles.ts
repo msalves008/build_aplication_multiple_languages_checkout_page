@@ -41,8 +41,8 @@ export const Container = styled.div`
         align-items: center;
 
         img {
-          width: 11rem;
-          height: 10, 3rem;
+          width: 8rem;
+          /* height: 10.3rem; */
         }
         .item-info {
           h3 {
@@ -134,6 +134,118 @@ export const Container = styled.div`
         line-height: 150%;
         text-transform: uppercase;
         color: var(--text-body);
+      }
+    }
+  }
+  @media(max-width: 1280px){
+    .modal{
+      width: 1140px;
+      .items{
+        .item{
+          img{
+            width: 5rem;
+          }
+        }
+      }
+      .resume{
+        .resume-itens{
+          button{
+            height: 2.5rem;
+            width:80%;
+          }
+        }
+      }
+    }
+  }
+  @media(max-width: 1024px){
+    .modal{
+      width: 960px;
+    }
+  }
+  @media(max-width: 992px){
+    .modal{
+      width: 960px;
+    }
+  }
+  @media(max-width: 768px){
+    .modal{
+      width: 720px;
+      .items{
+        .item{
+          .item-info{
+            h3{
+              font-size: 1rem;
+            }
+            span{
+              font-size: 0.7rem;
+            }
+          }
+          .item-value{
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+  @media(max-width: 576px){
+    .modal{
+      width: 540px;
+      .resume{
+        h1{
+          font-size: 1rem;
+        }
+        .resume-itens{
+          width: 50%;          
+        }
+      }
+    }
+  }
+  @media(max-width: 480px){
+    .modal{
+      width: 460px;
+    }
+  }
+  @media(max-width: 425px){
+    .modal{
+      width: 400px;
+      .resume{
+        flex-direction: column;
+        .resume-itens{
+          margin-top: 2rem;
+          width: 100%;
+        }
+      }
+    }
+  }
+  @media(max-width: 375px){
+    .modal{
+      width: 300px;
+      .modal-title{
+        font-size: 1.2rem;
+        padding-bottom: 0;
+        margin-bottom: 0;
+      }
+      .items{
+        .item{
+          img{
+            width: 4rem;
+          }
+          .item-value{
+            font-size: 0.8rem;
+          }
+          .item-info{
+            h3{
+              font-size: 0.8rem;  
+            }
+          }
+        }
+      }
+      .resume{
+        flex-direction: column;
+        .resume-itens{
+          margin-top: 2rem;
+          width: 100%;
+        }
       }
     }
   }
