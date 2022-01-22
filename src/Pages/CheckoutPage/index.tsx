@@ -12,7 +12,7 @@ const CheckoutPage: React.FC = () => {
         <h1 className="modal-title">Seu Carrinho</h1>
         <div className="items">
           <div className="item">
-            <img src={shoes} alt="item" className="Item-image" />
+            <img src={shoes} alt="Nike Paul George 2 Masculino" className="Item-image" />
             <div className="item-info">
               <h3>Tênis Nike Paul George 2 Masculino</h3>
               <span>Cód: AJ2039-003</span>
@@ -20,9 +20,9 @@ const CheckoutPage: React.FC = () => {
             <span className="item-value">R$ 549,99</span>
           </div>
           <div className="item">
-            <img src={tshirt} alt="item" className="Item-image" />
+            <img src={tshirt} alt="Camiseta Masculina Fitness Básica Manga Curta" className="Item-image" />
             <div className="item-info">
-              <h3>Camiseta Masculina Fitness Básica Manga Curta </h3>
+              <h3>Camiseta Masculina Fitness Básica Manga Curta</h3>
               <span>Cód: MR 10047990791</span>
             </div>
             <span className="item-value">R$ 29,99</span>
