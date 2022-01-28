@@ -1,0 +1,11 @@
+{
+  "translation":{
+    "selectYourLanguage":"Selecione seu idioma",
+    "modal-title" : "Carrinho de compras",
+    "order-summary" : "Resumo do pedido",
+    "order-summary-subtitle" : "Subtotal",
+    "order-summary-shipping" : "Frete",
+    "order-checkout" : "Finalizar pedido",
+    "currency": "R$"
+  }
+}

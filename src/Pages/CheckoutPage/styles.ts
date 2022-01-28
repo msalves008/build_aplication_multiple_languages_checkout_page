@@ -16,7 +16,14 @@ export const Container = styled.div`
     background-color: #fff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25);
     border-radius: 14px;
-
+    .modal-header {
+      display: flex;
+      height: 4rem;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 1rem;
+    }
     .modal-title {
       margin: 1.5rem;
       font-size: 1.5rem;
@@ -137,112 +144,121 @@ export const Container = styled.div`
       }
     }
   }
-  @media(max-width: 1280px){
-    .modal{
+  @media (max-width: 1280px) {
+    .modal {
       width: 1140px;
-      .items{
-        .item{
-          img{
+      .items {
+        .item {
+          img {
             width: 5rem;
           }
         }
       }
-      .resume{
-        .resume-itens{
-          button{
+      .resume {
+        .resume-itens {
+          button {
             height: 2.5rem;
-            width:80%;
+            width: 80%;
           }
         }
       }
     }
   }
-  @media(max-width: 1024px){
-    .modal{
+  @media (max-width: 1024px) {
+    .modal {
       width: 960px;
     }
   }
-  @media(max-width: 992px){
-    .modal{
+  @media (max-width: 992px) {
+    .modal {
       width: 960px;
     }
   }
-  @media(max-width: 768px){
-    .modal{
+  @media (max-width: 768px) {
+    .modal {
       width: 720px;
-      .items{
-        .item{
-          .item-info{
-            h3{
+      .items {
+        .item {
+          .item-info {
+            h3 {
               font-size: 1rem;
             }
-            span{
+            span {
               font-size: 0.7rem;
             }
           }
-          .item-value{
+          .item-value {
             font-size: 1rem;
           }
         }
       }
     }
   }
-  @media(max-width: 576px){
-    .modal{
+  @media (max-width: 576px) {
+    .modal {
       width: 540px;
-      .resume{
-        h1{
+      .resume {
+        h1 {
           font-size: 1rem;
         }
-        .resume-itens{
-          width: 50%;          
+        .resume-itens {
+          width: 50%;
         }
       }
     }
   }
-  @media(max-width: 480px){
-    .modal{
+  @media (max-width: 480px) {
+    .modal {
       width: 460px;
     }
   }
-  @media(max-width: 425px){
-    .modal{
+  @media (max-width: 425px) {
+    .modal {
       width: 400px;
-      .resume{
+      .resume {
         flex-direction: column;
-        .resume-itens{
+        .resume-itens {
           margin-top: 2rem;
           width: 100%;
         }
       }
     }
   }
-  @media(max-width: 375px){
-    .modal{
+  @media (max-width: 375px) {
+    .modal {
       width: 300px;
-      .modal-title{
+      .modal-header{
+        flex-direction: column;
+        .language-switcher{
+          justify-content: space-evenly;
+          span{
+            display: none;
+          }
+        }
+      }
+      .modal-title {
         font-size: 1.2rem;
         padding-bottom: 0;
         margin-bottom: 0;
       }
-      .items{
-        .item{
-          img{
+      .items {
+        .item {
+          img {
             width: 4rem;
           }
-          .item-value{
+          .item-value {
             font-size: 0.8rem;
           }
-          .item-info{
-            h3{
-              font-size: 0.8rem;  
+          .item-info {
+            h3 {
+              font-size: 0.8rem;
             }
           }
         }
       }
-      .resume{
+      .resume {
         flex-direction: column;
-        .resume-itens{
+        .resume-itens {
           margin-top: 2rem;
           width: 100%;
         }
