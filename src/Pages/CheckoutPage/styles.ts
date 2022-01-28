@@ -210,11 +210,34 @@ export const Container = styled.div`
   @media (max-width: 480px) {
     .modal {
       width: 460px;
+      .modal-header {
+        flex-direction: column;
+        .language-switcher {
+          justify-content: space-evenly;
+          span {
+            display: none;
+          }
+        }
+      }
     }
   }
   @media (max-width: 425px) {
     .modal {
       width: 400px;
+      .modal-header {
+        h1{
+          line-height: 0;
+        }
+        height: 10%;
+        display: flex;
+        flex-direction: column !important; 
+        .language-switcher {
+          justify-content: space-evenly;
+          span {
+            display: none;
+          }
+        }
+      }
       .resume {
         flex-direction: column;
         .resume-itens {
@@ -227,11 +250,11 @@ export const Container = styled.div`
   @media (max-width: 375px) {
     .modal {
       width: 300px;
-      .modal-header{
+      .modal-header {
         flex-direction: column;
-        .language-switcher{
+        .language-switcher {
           justify-content: space-evenly;
-          span{
+          span {
             display: none;
           }
         }
