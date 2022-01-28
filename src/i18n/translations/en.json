@@ -1,0 +1,11 @@
+{
+  "translation":{
+    "selectYourLanguage":"Select your language",
+    "modal-title" : "Cart",
+    "order-summary" : "Order Summary",
+    "order-summary-subtitle" : "Product subtotal",
+    "order-summary-shipping" : "Shipping",
+    "order-checkout" : "checkout",
+    "currency": "$"
+  }
+}

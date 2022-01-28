@@ -4,8 +4,10 @@
   "private": true,
   "dependencies": {
     "@types/styled-components": "^5.1.15",
+    "i18next": "^21.6.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-i18next": "^11.15.3",
     "react-scripts": "4.0.3",
     "styled-components": "^5.3.1",
     "web-vitals": "^1.0.1"
