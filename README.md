@@ -10,7 +10,7 @@
 
 ## 👨🏻‍💻 sobre o projeto
 
-- <p style="color: red;">Este projeto foi criado a fins de teste do Framework de internacionalização [I18N](https://www.i18next.com/), que é focado em gerenciar traduções  em diversas linguagens, na aplicação em questão foram realizados traduções somente de Inglês para português</p>
+- <p style="color: red;">Este projeto foi criado para fins de teste do Framework de internacionalização [I18N](https://www.i18next.com/), que é focado em gerenciar traduções  em diversas linguagens, na aplicação em questão foram realizados traduções somente de Inglês para português</p>
 Link da aplicação: https://www.dyotechstore.ml
 
 
